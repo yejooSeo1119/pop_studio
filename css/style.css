@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'UhBeeKeongKeong';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeKeongKeong.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+body{
+    font-family: "GmarketSansLight";
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;    
+}
+p{
+    color: #333;
+}
+/* wrap */
+#wrap{
+    width: 100%;
+    margin: auto;    
+}
+
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    background-color: bisque;
+    box-sizing: border-box;
+}
+.header_inner{
+    width: 1320px;
+    height: 100%;
+    margin: auto;
+}
+.header_inner h1{
+    width: 300px;
+    height: 100%;
+    float: left;
+}
+.gnb{
+    width: 900px;
+    height: 100%;
+    float: right;
+}
+.gnb > li{
+    width: 33.333%;
+    text-align: center;
+    float: left;
+    padding: 50px 0;
+}
+.gnb > li > a{
+    display: block;
+    font-family: 'UhBeeKeongKeong';    
+    font-size: 20px;
+}
+.sub{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    display: none;    
+    margin-top: 25px;
+}
+.sub li{
+    width: 100%;
+}
+.sub li a{    
+    padding: 20px 0;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+.sub li a:hover{
+    background-color: #000;
+}
+
+
+/* section */
+section{
+    width: 1320px;
+    height: auto;
+    margin: 50px auto;
+}
+
+/* section1 */
+#section1{
+    width: 600px;
+    height: 600px;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+#section1 h1 img{
+    width: 100%;
+}
+
+/* section2 */
+#section2{
+    width: 720px;
+    height: 600px;
+    float: right;
+    box-sizing: border-box;
+    margin: 100px 0;
+    padding-left: 150px;
+}
+hr{
+    margin: 30px 0;
+    width: 500px;
+}
+#section2 h1{
+    font-family: 'UhBeeKeongKeong';
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.title{
+    color: #777;
+    margin-bottom: 50px;
+}
+#section2 h3{
+    font-family: 'GmarketSansBold';
+    padding-left: 400px;
+    font-size: 18px;
+}
+h2{
+    display: inline;
+    padding: 0 20px;
+}
+select{
+    width: 370px;
+    height: 50px;
+    font-size: 14px;
+    font-family: 'GmarketSansMedium';
+    background-color: none;
+    border: 2px solid #f0dd28;
+    border-radius: 10px;
+}
+select > option{
+    font-family: 'GmarketSansLight';
+}
+.kakao{
+    width: 500px;
+    padding: 20px 10px;
+    background-color: #f0dd28;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.buy{
+    width: 500px;
+    padding: 20px 10px;
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'GmarketSansBold';
+    letter-spacing:5px;
+    margin-bottom: 15px;
+}
+.cart, .like{
+    width: 250px;
+    padding: 20px 10px;
+    border: 1px solid #333;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 16px;
+}
+
+/* section3 */
+#section3{
+    width: 1320px;
+    height: auto;
+    border-top: 2px solid #000;
+    clear: both;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+#section3 img {
+    display: block;
+    margin: auto;
+}
+table{
+    width: 700px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 18px;
+    border-bottom: 2px solid #111;
+}
+caption{
+    width: 700px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'GmarketSansBold';
+    padding-bottom: 30px;
+    border-bottom: 2px solid #111;
+}
+tr{
+   border-bottom: 1px solid #666;
+}
+th{
+    width: 100px;
+    text-align: right;
+    padding: 10px 0;
+}
+td{
+    width: 600px;
+    text-align: left;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+}
+.footer_inner{
+    width: 1320px;
+    margin: auto;
+    position: relative;
+}
+.content1{
+    width: 800px;
+    height: 25px;
+    padding-bottom: 20px;
+}
+.content1 a{
+    float: left;
+    display: block;
+    padding-right: 50px;    
+    color: #999;
+    font-weight: bold;
+}
+.content1 a:hover{
+    color: #000;
+}
+.content2 {
+    width: 800px;
+    height: 25px;
+    padding-bottom: 20px;
+}
+.content2 li{
+    float: left;
+    display: block;
+    padding-right: 50px;
+}
+.footer_inner p{
+    padding-bottom: 20px;
+}
+.footer_inner h1{
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
